@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList.WebAPI", "ToDoList.WebAPI\ToDoList.WebAPI.csproj", "{2554A61B-7C91-48F3-A3D2-1F411674C534}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "ToDoList.Database", "ToDoList.Database\ToDoList.Database.sqlproj", "{F693EC23-AC30-41BA-B4A2-8051B3D7C6B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList.Web", "ToDoList.Web\ToDoList.Web.csproj", "{8B5CADDE-9727-4A98-9C22-DC687728D3CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoList.Repository", "ToDoList.Repository\ToDoList.Repository.csproj", "{602DCDFA-E0A4-4DB9-83CA-81280CB89970}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Entity", "ToDoList.Entity\ToDoList.Entity.csproj", "{D1049E91-2B25-4CB6-BCC9-B01EAD1DA462}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Model", "ToDoList.Model\ToDoList.Model.csproj", "{E7C08880-BA1F-46AF-96BD-B3A77B79F7DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoList.Service", "ToDoList.Service\ToDoList.Service.csproj", "{C7BF968E-8A0D-433C-9756-761146EBCE16}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2554A61B-7C91-48F3-A3D2-1F411674C534}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2554A61B-7C91-48F3-A3D2-1F411674C534}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2554A61B-7C91-48F3-A3D2-1F411674C534}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2554A61B-7C91-48F3-A3D2-1F411674C534}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F693EC23-AC30-41BA-B4A2-8051B3D7C6B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F693EC23-AC30-41BA-B4A2-8051B3D7C6B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F693EC23-AC30-41BA-B4A2-8051B3D7C6B5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F693EC23-AC30-41BA-B4A2-8051B3D7C6B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F693EC23-AC30-41BA-B4A2-8051B3D7C6B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F693EC23-AC30-41BA-B4A2-8051B3D7C6B5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8B5CADDE-9727-4A98-9C22-DC687728D3CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B5CADDE-9727-4A98-9C22-DC687728D3CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B5CADDE-9727-4A98-9C22-DC687728D3CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B5CADDE-9727-4A98-9C22-DC687728D3CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{602DCDFA-E0A4-4DB9-83CA-81280CB89970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{602DCDFA-E0A4-4DB9-83CA-81280CB89970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{602DCDFA-E0A4-4DB9-83CA-81280CB89970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{602DCDFA-E0A4-4DB9-83CA-81280CB89970}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1049E91-2B25-4CB6-BCC9-B01EAD1DA462}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1049E91-2B25-4CB6-BCC9-B01EAD1DA462}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1049E91-2B25-4CB6-BCC9-B01EAD1DA462}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1049E91-2B25-4CB6-BCC9-B01EAD1DA462}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7C08880-BA1F-46AF-96BD-B3A77B79F7DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7C08880-BA1F-46AF-96BD-B3A77B79F7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7C08880-BA1F-46AF-96BD-B3A77B79F7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7C08880-BA1F-46AF-96BD-B3A77B79F7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7BF968E-8A0D-433C-9756-761146EBCE16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7BF968E-8A0D-433C-9756-761146EBCE16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7BF968E-8A0D-433C-9756-761146EBCE16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7BF968E-8A0D-433C-9756-761146EBCE16}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC7171A2-6F2A-4C15-9B6E-B0A9A2EA8EAB}
+	EndGlobalSection
+EndGlobal
